@@ -1,0 +1,71 @@
+.page0 {
+    background-image: url(../IMG/background0.png);
+    width: 1920px; 
+    height: 1080px; 
+    background-size: cover;
+    z-index:-2;
+}
+
+
+.pom1 {
+    position:absolute;
+    top:416.5px;
+    left:453.5px;
+    z-index:1;
+    letter-spacing:20px;
+
+    font-family: "Segoe UI Italic";
+    font-size:150px;
+    color:#FFFFFF;
+}
+
+.pom2 {
+    position:absolute;
+    top:417.5px;
+    left:462.5px;
+    z-index:0;
+    letter-spacing:20px;
+
+    font-family: "Segoe UI Italic";
+    font-size:150px;
+    color:#EFBA51;
+}
+
+.itb {
+    position:absolute;
+    top:597px;
+    left:1108px;
+    z-index:0;
+    letter-spacing:6.5px;
+    
+
+    font-family: "Segoe UI Italic";
+    font-size:50px;
+    color:#EFBA51;
+}
+.door {
+    height:180px;
+    width:160px;
+}
+.closedoor {
+    position: absolute;
+    top:482px;
+    left:1455px;
+    height:174px;
+    width:161px;
+    z-index:3;
+
+    cursor:pointer; 
+}
+
+.opendoor {
+    position: absolute;
+    top:478px;
+    left:1455px;
+    height:192px;
+    width:161px;
+    z-index:2;
+
+    opacity:0;
+       
+}
